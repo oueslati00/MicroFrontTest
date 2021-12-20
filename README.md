@@ -1,0 +1,2 @@
+# MicroFrontTest
+Module Federation
