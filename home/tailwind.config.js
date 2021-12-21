@@ -1,9 +1,10 @@
-module.exports = {
+/*module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
    content: [ 
-	   "./src/**/*.{js,jsx,ts,tsx}",  ],
-  theme: {
+	   "./src/**/
+    // *.{js,jsx,ts,tsx}",  ], 
+/*  theme: {
     extend: {},
   },
   variants: {
@@ -11,3 +12,6 @@ module.exports = {
   },
   plugins: [],
 }
+
+*/
+module.exports = {  content: ["./src/**/*.{html,js}"],  theme: {    extend: {},  },  plugins: [],}
